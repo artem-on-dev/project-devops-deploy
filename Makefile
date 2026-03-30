@@ -37,4 +37,7 @@ container:
 publish:
 	docker push $(REPOSITORY)/$(NAME):$(VERSION)
 
-.PHONY: build image container publish
+deploy:
+	ansible-playbook playbook.yml -i inventory.ini
+
+.PHONY: build image container publish deploy
