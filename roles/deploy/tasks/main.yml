@@ -31,6 +31,6 @@
       STORAGE_S3_ENDPOINT: '{{ s3_endpoint }}'
       STORAGE_S3_ACCESSKEY: '{{ vault_s3_access_key }}'
       STORAGE_S3_SECRETKEY: '{{ vault_s3_secret_key }}'
-      STORAGE_S3_CDNURL: '{{ s3_cdnurl }}'
+      # STORAGE_S3_CDNURL: '{{ s3_cdnurl }}'
 
       JAVA_OPTS: "-Xmx512m"
